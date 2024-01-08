@@ -2,6 +2,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
 import CounterButton from './components/CounterButton.vue'
+import SvgContainer from './components/SvgContainer.vue'
 </script>
 
 <template>
@@ -16,7 +17,10 @@ import CounterButton from './components/CounterButton.vue'
   <main>
     <TheWelcome />
   </main> -->
-  <CounterButton />
+  <div>
+    <CounterButton />
+    <SvgContainer />
+  </div>
 </template>
 
 <style scoped>

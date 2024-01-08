@@ -1,6 +1,6 @@
 {
   "name": "vue3-component-publish-demo",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,12 +11,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/component-library.umd.js",
-  "module": "./dist/component-library.es.js",
+  "main": "./dist/component-library.umd.cjs",
+  "module": "./dist/component-library.js",
   "exports": {
     ".": {
-      "import": "./dist/component-library.es.js",
-      "require": "./dist/component-library.umd.js"
+      "import": "./dist/component-library.js",
+      "require": "./dist/component-library.umd.cjs"
     }
   },
   "dependencies": {

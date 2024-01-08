@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+import { MapSvgIcon, MapSvgSpriteColor } from 'vue3-component-svg-sprite'
+// import MapSvgSprite from 'vue3-component-svg-sprite'
+import 'vue3-component-svg-sprite/dist/style.css'
+</script>
 
 <template>
     <div>

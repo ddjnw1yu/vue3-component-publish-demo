@@ -20,13 +20,16 @@
     }
   },
   "dependencies": {
+    "element-plus": "^2.4.4",
     "vue": "^3.3.11",
+    "vue3-component-flatmapvuer": "^0.0.0",
     "vue3-component-svg-sprite": "^0.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
+    "sass": "^1.69.7",
     "vite": "^5.0.10"
   }
 }

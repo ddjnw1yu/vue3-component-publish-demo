@@ -3,6 +3,7 @@
 // import TheWelcome from './components/TheWelcome.vue'
 import CounterButton from './components/CounterButton.vue'
 import SvgContainer from './components/SvgContainer.vue'
+import FlatmapVuer from './components/FlatmapVuer.vue'
 </script>
 
 <template>
@@ -17,37 +18,22 @@ import SvgContainer from './components/SvgContainer.vue'
   <main>
     <TheWelcome />
   </main> -->
-  <div>
-    <CounterButton />
-    <SvgContainer />
+  <div id="app">
+    <div>
+      <CounterButton />
+    </div>
+    <div>
+      <SvgContainer />
+    </div>
+    <div>
+      <FlatmapVuer />
+    </div>
   </div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+#app {
+  display: flex;
+  flex-direction: column;
 }
 </style>

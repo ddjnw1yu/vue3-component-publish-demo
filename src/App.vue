@@ -3,6 +3,7 @@
 // import TheWelcome from './components/TheWelcome.vue'
 import CounterButton from "./components/CounterButton.vue";
 import SvgContainer from "./components/SvgContainer.vue";
+import Gallery from "./components/Gallery.vue";
 import FlatmapVuer from "./components/FlatmapVuer.vue";
 </script>
 
@@ -24,6 +25,9 @@ import FlatmapVuer from "./components/FlatmapVuer.vue";
     </div>
     <div>
       <SvgContainer />
+    </div>
+    <div>
+      <Gallery />
     </div>
     <div>
       <FlatmapVuer />

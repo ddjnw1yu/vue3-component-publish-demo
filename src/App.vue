@@ -1,9 +1,9 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
-import CounterButton from './components/CounterButton.vue'
-import SvgContainer from './components/SvgContainer.vue'
-import FlatmapVuer from './components/FlatmapVuer.vue'
+import CounterButton from "./components/CounterButton.vue";
+import SvgContainer from "./components/SvgContainer.vue";
+import FlatmapVuer from "./components/FlatmapVuer.vue";
 </script>
 
 <template>

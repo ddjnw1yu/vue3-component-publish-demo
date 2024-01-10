@@ -1,3 +1,3 @@
-import CounterButton from './CounterButton.vue'
+import CounterButton from "./CounterButton.vue";
 
-export { CounterButton }
+export { CounterButton };

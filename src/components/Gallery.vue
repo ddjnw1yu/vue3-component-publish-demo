@@ -6,7 +6,7 @@ const dataInput = [
   {
     title: "test1",
     type: "data",
-    link: "https://sparc.science/",
+    userData: "https://sparc.science/",
   },
   {
     title: "test2",

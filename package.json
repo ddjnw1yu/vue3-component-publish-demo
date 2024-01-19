@@ -23,9 +23,9 @@
   "dependencies": {
     "element-plus": "^2.4.4",
     "vue": "^3.3.11",
-    "vue3-component-flatmapvuer": "^0.0.0",
-    "vue3-component-gallery": "^0.0.0",
-    "vue3-component-svg-sprite": "^0.0.1"
+    "vue3-component-flatmapvuer": "^0.0.2",
+    "vue3-component-gallery": "^0.0.3",
+    "vue3-component-svg-sprite": "^0.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

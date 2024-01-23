@@ -21,14 +21,15 @@
     }
   },
   "dependencies": {
+    "@abi-software/gallery": "^0.5.0-vue3.2",
     "@abi-software/scaffoldvuer": "^0.4.0-vue3.0",
     "element-plus": "^2.4.4",
+    "simple-dropzone": "^0.8.3",
     "vue": "^3.3.11",
-    "vue3-component-flatmapvuer": "^0.0.2",
-    "vue3-component-gallery": "^0.0.3",
-    "vue3-component-svg-sprite": "^0.0.2",
     "vue-router": "^4.2.5",
-    "simple-dropzone": "^0.8.3"
+    "vue3-component-flatmapvuer": "^0.0.2",
+    "vue3-component-gallery": "^0.0.5",
+    "vue3-component-svg-sprite": "^0.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

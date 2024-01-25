@@ -7,6 +7,7 @@ import SvgContainer from "./components/SvgContainer.vue";
 import Gallery from "./components/Gallery.vue";
 import FlatmapVuer from "./components/FlatmapVuer.vue";
 import ScaffoldVuer from "./components/ScaffoldVuer.vue";
+import SideBar from "./components/SideBar.vue";
 
 const type = ref(false)
 </script>
@@ -36,6 +37,9 @@ const type = ref(false)
     <div>
       <button @click="type = !type">Switch</button>
       <component :is="type?FlatmapVuer:ScaffoldVuer"></component>
+    </div>
+    <div>
+      <SideBar />
     </div>
   </div>
 </template>

@@ -2,6 +2,8 @@
 import { MapSvgIcon, MapSvgSpriteColor } from "vue3-component-svg-sprite";
 // import MapSvgSprite from 'vue3-component-svg-sprite'
 import "vue3-component-svg-sprite/dist/style.css";
+// import { MapSvgIcon, MapSvgSpriteColor } from "@abi-software/svg-sprite";
+// import "@abi-software/svg-sprite/dist/style.css";
 </script>
 
 <template>

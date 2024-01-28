@@ -17,8 +17,10 @@
   
 <script>
 /* eslint-disable no-alert, no-console */
-import { SideBar } from "vue3-component-map-side-bar";
-import "vue3-component-map-side-bar/dist/style.css";
+// import { SideBar } from "vue3-component-map-side-bar";
+// import "vue3-component-map-side-bar/dist/style.css";
+import { SideBar } from "@abi-software/map-side-bar";
+import "@abi-software/map-side-bar/dist/style.css";
 
 // import SideBar from './components/SideBar.vue'
 // import EventBus from './components/EventBus.js'
